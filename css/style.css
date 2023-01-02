@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.logo img {
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.texto {
+    position: absolute;
+    width: 577px;
+    height: 480px;
+    left: 240px;
+    top: 168px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0a3871;
+    background-color: #f3f5fc;
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 845px;
+}
+
+.encriptar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0a3871;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.desencriptar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0a3871;
+}
+
+.rectangulo {
+    position: absolute;
+    width: 400px;
+    height: 894px;
+    left: 1000px;
+    top: 40px;
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.fondo {
+    background-color: #f3f3fc;
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: auto;
+}
+
+.desapareceCnBoton {
+    margin-top: 50%;
+}
+
+.desapareceCnBoton img {
+    margin-left: 33px;
+}
+
+.border {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 120%;
+    text-align: center;
+    color: #343a40;
+}
+
+.txt {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+
+.EDResuelto {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 30px;
+    display: none;
+    word-wrap: break-word;
+}
+
+.EDResuelto p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150%;
+    color: #495057;
+}
+
+.copiar {
+    box-sizing: border-box;
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 30px;
+    top: 803px;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0a3871;
+}
+
+.advertencia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 629px;
+    height: 18px;
+    left: 240px;
+    top: 821px;
+    color: #495057;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1174px) {
+    .logo {
+        position: absolute;
+        width: 31.09px;
+        height: 50.58px;
+        left: 40px;
+        top: 20px;
+    }
+
+    .logo img {
+        width: 31px;
+        height: 46px;
+    }
+
+    .texto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        width: 688px;
+        height: 48px;
+        left: 40px;
+        top: 240px;
+    }
+
+    .buttons {
+        width: 688px;
+        height: 67px;
+        left: 40px;
+        top: 870px;
+    }
+
+    .encriptar {
+        width: 332px;
+        height: 67px;
+    }
+
+    .desencriptar {
+        width: 332px;
+        height: 67px;
+    }
+
+    .rectangulo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+        position: absolute;
+        width: 628px;
+        height: 233px;
+        left: 40px;
+        top: 1001px;
+    }
+
+    .desapareceCnBoton img {
+        display: none;
+    }
+
+    .border {
+        font-size: 24px;
+        width: 624px;
+        position: absolute;
+        bottom: 150px;
+    }
+
+    .txt {
+        position: absolute;
+        bottom: 100px;
+        left: 137px;
+    }
+
+    .container {
+        width: 768px;
+        height: 1174px;
+    }
+
+    .copiar {
+        top: 215px;
+        width: 628px;
+    }
+
+    .advertencia {
+        left: 40px;
+    }
+}
+
+/* --------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+
+
+    .container {
+        width: 375px;
+        height: 933px;
+        margin: auto;
+    }
+
+    .logo {
+        position: absolute;
+        left: 0;
+    }
+
+    .texto {
+        padding: 0px;
+        gap: 24px;
+        width: 100%;
+        height: 258px;
+        left: 20%;
+    }
+
+    .buttons {
+        width: 100%;
+        height: 158px;
+        left: 20%;
+        top: 485px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+    }
+
+    .advertencia{
+        left: 20%;
+        top: 460px;
+    }
+
+    .desapareceCnBoton img {
+        display: none;
+    }
+
+    .rectangulo{
+        width: 100%;
+height: 386px;
+left: 23%;
+top: 707px;
+    }
+
+.border{
+    bottom: 180px;
+    position: absolute;
+}
+
+.txt{
+    position: absolute;
+    bottom: 100px;
+}
+
+.copiar{
+    top: 290px;
+    left: 20px;
+}
+}
